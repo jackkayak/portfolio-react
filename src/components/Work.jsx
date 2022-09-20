@@ -1,6 +1,9 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
-import realEstate from '../assets/realestate.jpeg'
+
+import BryceCanyon from '../assets/BryceCanyon.png'
+import DailyTasks from '../assets/DailyTasks.png'
+import Jammer from '../assets/Jammer.png'
+import Nbrereton from '../assets/Nbrereton.png'
 
 const Work = () => {
   return (
@@ -17,76 +20,74 @@ const Work = () => {
 
                 {/* grid item */}
                 <div 
-                style={{backgroundImage: `url(${WorkImg})`}}
+                style={{backgroundImage: `url(${DailyTasks})`}}
                 className='shadow-lg shadow-[#040c16] group container dounder-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover FX */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS application
+                        React JS Task App
                         </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                        <div className='pt-8 text-center '>
+                            <a href="https://darling-puffpuff-77cf59.netlify.app/">
+                                <button className=' hover:bg-[#cdcdcd] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            <a href="https://github.com/jackkayak/Task-Manager">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#cdcdcd]'>Code</button>
                             </a>
                         </div>
                     </div>
                     
                 </div>
                 <div 
-                style={{backgroundImage: `url(${realEstate})`}}
+                style={{backgroundImage: `url(${Jammer})`}}
                 className='shadow-lg shadow-[#040c16] group container dounder-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover FX */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS application
+                        React JS w/ Spotify API App
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            <a href="https://majestic-sprinkles-c3adfe.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#cdcdcd]'>Demo</button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            <a href="https://github.com/jackkayak/Jammer">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#cdcdcd]'>Code</button>
                             </a>
                         </div>
                     </div>
                     
                 </div>
                 <div 
-                style={{backgroundImage: `url(${WorkImg})`}}
+                style={{backgroundImage: `url(${Nbrereton})`}}
                 className='shadow-lg shadow-[#040c16] group container dounder-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover FX */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS application
+                        Webflow Internship Work
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            <a href="https://n-brereton-medical.webflow.io/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#cdcdcd]'>Demo</button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                           
                         </div>
                     </div>
                     
                 </div>
                 <div 
-                style={{backgroundImage: `url(${realEstate})`}}
+                style={{backgroundImage: `url(${BryceCanyon})`}}
                 className='shadow-lg shadow-[#040c16] group container dounder-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover FX */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS application
+                        Flyer for National Park Service
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="../assets/BryceCanyon.png">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="/">
@@ -96,46 +97,9 @@ const Work = () => {
                     </div>
                     
                 </div>
-                <div 
-                style={{backgroundImage: `url(${WorkImg})`}}
-                className='shadow-lg shadow-[#040c16] group container dounder-md flex justify-center items-center mx-auto content-div'>
+                
                     
-                    {/* hover FX */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div 
-                style={{backgroundImage: `url(${realEstate})`}}
-                className='shadow-lg shadow-[#040c16] group container dounder-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* hover FX */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
+                
             </div>
         </div>
     </div>

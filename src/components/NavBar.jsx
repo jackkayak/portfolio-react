@@ -11,7 +11,7 @@ const NavBar = () => {
 
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 border-b-2 border-[#f77f00]'>
             <div>
                 <img src={Logo} alt="Logo img" style={{width: '50px'}} />
             </div>
@@ -85,19 +85,19 @@ const NavBar = () => {
               <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                   <a className='flex justify-between items-center w-full text-gray-300' 
-                  href='/'>
+                  href='https://www.linkedin.com/in/jacktkay/'>
                     Linkedin <FaLinkedin size={30} />
                   </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333]'>
                   <a className='flex justify-between items-center w-full text-gray-300' 
-                  href='/'>
+                  href='https://github.com/jackkayak'>
                     Github <FaGithub size={30} />
                   </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#457b9d]'>
                   <a className='flex justify-between items-center w-full text-gray-300' 
-                  href='/'>
+                  href='mailto:jacktkay6@gmail.com'>
                     Email <HiOutlineMail size={30} />
                   </a>
                 </li>

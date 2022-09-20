@@ -1,5 +1,6 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import {Link} from 'react-scroll'
 
 const Hero = () => {
   return (
@@ -16,7 +17,9 @@ const Hero = () => {
                 I work constantly, trying to learn something new everyday and improve my 
                 current stack of skills.</p>
                 <div>
-                    <button  className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#f77f00] hover:border-[#f77f00]'>View Work 
+                    <button  className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#f77f00] hover:border-[#f77f00]'><Link to="work"  smooth={true}  duration={800} >
+                  View Work
+                </Link>
                     <span className='group-hover:rotate-90 duration-300'>
                     <HiArrowNarrowRight className='ml-3 '/>
                     </span>
