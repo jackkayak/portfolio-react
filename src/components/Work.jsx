@@ -1,6 +1,6 @@
 import React from 'react'
 
-import BryceCanyon from '../assets/BryceCanyon.png'
+import Chat from '../assets/chatapp.png'
 import DailyTasks from '../assets/DailyTasks.png'
 import Jammer from '../assets/Jammer.png'
 import Nbrereton from '../assets/Nbrereton.png'
@@ -21,7 +21,7 @@ const Work = () => {
                 {/* grid item */}
                 <div 
                 style={{backgroundImage: `url(${DailyTasks})`}}
-                className='shadow-lg shadow-[#040c16] group container dounder-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container rounder-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover FX */}
                     <div className='opacity-0 group-hover:opacity-100'>
@@ -41,7 +41,7 @@ const Work = () => {
                 </div>
                 <div 
                 style={{backgroundImage: `url(${Jammer})`}}
-                className='shadow-lg shadow-[#040c16] group container dounder-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container rounder-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover FX */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
@@ -61,7 +61,7 @@ const Work = () => {
                 </div>
                 <div 
                 style={{backgroundImage: `url(${Nbrereton})`}}
-                className='shadow-lg shadow-[#040c16] group container dounder-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container rounder-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover FX */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
@@ -78,19 +78,17 @@ const Work = () => {
                     
                 </div>
                 <div 
-                style={{backgroundImage: `url(${BryceCanyon})`}}
-                className='shadow-lg shadow-[#040c16] group container dounder-md flex justify-center items-center mx-auto content-div'>
+                style={{backgroundImage: `url(${Chat})`}}
+                className='shadow-lg shadow-[#040c16]  group container rounder-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover FX */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                        Flyer for National Park Service
+                        React Tailwind Firebase Chat App
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="../assets/BryceCanyon.png">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
+                            
+                            <a href="https://github.com/jackkayak/portfolio-react">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
