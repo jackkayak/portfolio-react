@@ -4,7 +4,11 @@ import HTML from '../assets/html.png'
 import JavaScript from '../assets/javascript.png'
 import ReactImg from '../assets/react.png'
 import Tailwind from '../assets/tailwind.png'
-import Node from '../assets/node.png'
+import Adobe from '../assets/Adobexd.png'
+import Photoshop from '../assets/photoshop.png'
+import Figma from '../assets/figmaeighty.png'
+import Firebase from '../assets/firebase.png'
+
 
 const Skills = () => {
   return (
@@ -38,8 +42,20 @@ const Skills = () => {
                     <p className='my-4'>Tailwindcss</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-105 duration-500'>
-                    <img className='w-20 mx-auto' src={Node} alt="Node Icon" />
-                    <p className='my-4'>Node.js</p>
+                    <img className='w-20 mx-auto' src={Firebase} alt="Tailwindcss Icon" />
+                    <p className='my-4'>Firebase</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-105 duration-500'>
+                <img className='w-20 mx-auto' src={Adobe} alt="Adobe XD Icon" />
+                    <p className='my-4'>Adobe Xd</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-105 duration-500'>
+                <img className='w-20 mx-auto' src={Photoshop} alt="Adobe XD Icon" />
+                    <p className='my-4'>Adobe Photoshop</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-105 duration-500'>
+                <img className='w-20 mx-auto' src={Figma} alt="Adobe XD Icon" />
+                    <p className='my-4'>Figma</p>
                 </div>
             </div>
         </div>

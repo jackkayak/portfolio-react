@@ -19,9 +19,9 @@ const About = () => {
                     </div>
                     <div>
                         <p>
-                        I have dedicated most of my day to learning new methods and information regarding tech,
-                        with my learned knowledge, I make sure to apply such to new projects. I have always been a problem-solver, I learn best when I am hands-on so I reflect most skill through my actions. 
-                        I feel accomplished most when I solve an issue on my own, but I know when to reach out. My ideas are always pretty creative as they randomly pop in my head and I make sure to jot them down on paper. 
+                        I have dedicated most of my day to learning new methods and information regarding tech.
+                        With my learned knowledge, I make sure to practice by coding new mockups weekly. I have always been a problem-solver, I learn best when I am hands-on so I reflect most skill through my projects. 
+                        I feel accomplished most when I solve an issue on my own, but I know when to reach out. My goal is to label myself as a creative developer and I push myself everyday to learn something new in order to get to that point.
                         </p>
                     </div>
             </div>
