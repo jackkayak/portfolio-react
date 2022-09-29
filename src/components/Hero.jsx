@@ -12,10 +12,8 @@ const Hero = () => {
             <p className='text-[#f77f00] italic tracking-wide'>Hi, my name is</p>
             <h1 className='text-4xl sm:text-7xl font-bold text-[#fff]'>Jack Kay</h1>
             <h2 className='text-3xl sm:text-6xl pt-4 font-bold text-[#cdcdcd]'>I'm a Front End Developer and UI/UX Designer.</h2>
-            <p className='text-[#cdcdcd] py-4 max-w-[700px]'>I'm both a Developer and Designer, constantly keeping up with latest trends. 
-                I understand both the eye for detail as well as the art of clean code. 
-                I work constantly, trying to learn something new everyday and improve my 
-                current stack of skills.</p>
+            <p className='text-[#cdcdcd] py-4 max-w-[700px]'>As a Developer and Designer, I am constantly keeping up with the latest trends. I have an eye for detail and value the art of clean
+             code. I am always working to expand my knowledge base and improve my skill set. Feel free to take a look at some of my latest projects below.</p>
                 <div>
                     <button  className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#f77f00] hover:border-[#f77f00]'><Link to="work"  smooth={true}  duration={800} >
                   View Work

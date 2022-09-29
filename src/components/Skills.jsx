@@ -6,7 +6,6 @@ import ReactImg from '../assets/react.png'
 import Tailwind from '../assets/tailwind.png'
 import Adobe from '../assets/Adobexd.png'
 import Photoshop from '../assets/photoshop.png'
-import Figma from '../assets/figmaeighty.png'
 import Firebase from '../assets/firebase.png'
 
 
@@ -17,7 +16,7 @@ const Skills = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-[#f77f00] '>Skills</p>
-                <p className='py-4   '>These are the technologies I have practiced the most.</p>
+                {/* <p className='py-4   '>These are the technologies I have practiced the most.</p> */}
             </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 text-center gap-4 py-8'>
@@ -52,10 +51,6 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-105 duration-500'>
                 <img className='w-20 mx-auto' src={Photoshop} alt="Adobe XD Icon" />
                     <p className='my-4'>Adobe Photoshop</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-105 duration-500'>
-                <img className='w-20 mx-auto' src={Figma} alt="Adobe XD Icon" />
-                    <p className='my-4'>Figma</p>
                 </div>
             </div>
         </div>
