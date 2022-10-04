@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Chat from '../assets/chatapp.png'
+import Mvvr from '../assets/mvvrlanding.png'
 import DailyTasks from '../assets/DailyTasks.png'
 import Jammer from '../assets/Jammer.png'
 import Nbrereton from '../assets/Nbrereton.png'
@@ -13,7 +13,7 @@ const Work = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#f77f00]'>Work</p>
-                <p className='py-6'>Check out some of my recent work.</p>
+                <p className='py-6'>Check out some of my recent work. I would be more than willing to set up a meeting and go over anything in my github or listed below.</p>
             </div>
 
 
@@ -102,17 +102,20 @@ const Work = () => {
                     
                 </div>
                 <div 
-                style={{backgroundImage: `url(${Chat})`}}
+                style={{backgroundImage: `url(${Mvvr})`}}
                 className='shadow-lg shadow-[#040c16]  group container rounder-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover FX */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className='text-2xl font-bold text-white tracking-wider px-3'>
-                        React Tailwind Firebase Chat App
+                        React Tailwind fully functional site
                         </span>
                         <div className='pt-8 text-center'>
+                        <a href="https://spontaneous-seahorse-b6c325.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#cdcdcd]'>Demo</button>
+                            </a>
                             
-                            <a href="https://github.com/jackkayak/portfolio-react">
+                            <a href="https://github.com/jackkayak/MVVR-react-tailwind-router">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#cdcdcd]'>Code</button>
                             </a>
                         </div>

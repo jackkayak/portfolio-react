@@ -21,7 +21,7 @@ const About = () => {
                         <p>
                         I am dedicated to learning new methods and strategies within the tech industry. I enjoy practicing and fine tuning my skills by coding new mockups on a weekly basis.
                          I have always been a problem-solver and like to learn through hands-on experience. My skills are best exemplified through my projects. In order to reach my goal of becoming a creative developer, I push myself everyday to learn 
-                         something new and keep up with the most recent developments in graphic design.
+                         something new and keep up with the most recent developments in the tech industry.
                         </p>
                     </div>
             </div>
